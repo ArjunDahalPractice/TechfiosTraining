@@ -11,7 +11,6 @@ import org.openqa.selenium.support.ui.Select;
 public class BankDeposit {
 	
 	
-	//commit Second Time
 	WebDriver wd;
 
 	@Before
