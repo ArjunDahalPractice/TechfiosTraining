@@ -20,7 +20,9 @@ public class BankDeposit {
 		wd = new ChromeDriver ();
 		//wd = new FirefoxDriver ();
 
-	
+		wd.get("http://www.techfios.com/ibilling/?ng=admin/");
+		wd.manage().window().maximize();
+		Thread.sleep(1000);
 	}
 
 	@Test
