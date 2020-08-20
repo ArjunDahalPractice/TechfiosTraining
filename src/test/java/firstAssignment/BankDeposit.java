@@ -28,6 +28,7 @@ public class BankDeposit {
 	@Test
 	public void Login() throws InterruptedException {
 		wd.findElement(By.xpath("//input[@id='username']")).sendKeys("demo@techfios.com");
+		Thread.sleep(1000); //master adding line...
 		wd.findElement(By.xpath("//input[@id='password']")).sendKeys("abc123");
 
 		
