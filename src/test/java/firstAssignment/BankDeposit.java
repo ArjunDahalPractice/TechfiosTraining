@@ -48,7 +48,9 @@ public class BankDeposit {
 		Thread.sleep(1000);
 
 		wd.findElement(By.xpath("//input[@id='description']")).sendKeys("Deposit money by Arjun");
+		Thread.sleep(1000);
 		wd.findElement(By.xpath("//input[@id='amount']")).sendKeys("1200");
+		Thread.sleep(1000);
 		wd.findElement(By.xpath("//button[@id='submit']")).click();
 
 		wd.close();
