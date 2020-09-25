@@ -14,7 +14,7 @@ public class BankDeposit {
 
 	@Before
 	public void LunchBrowser() throws InterruptedException {
-
+		//lets first commit....
 		System.setProperty("webdriver.chrome.driver", ".\\driver\\chromedriver.exe");
 		//System.setProperty("webdriver.gecko.driver", ".\\driver\\geckodriver.exe");
 		wd = new ChromeDriver ();
@@ -31,7 +31,6 @@ public class BankDeposit {
 		Thread.sleep(1000); //master adding line...
 		wd.findElement(By.xpath("//input[@id='password']")).sendKeys("abc123");
 
-		
 		//Actions myact = new Actions(wd);
 		//myact.sendKeys(Keys.ENTER).build().perform();
 		
